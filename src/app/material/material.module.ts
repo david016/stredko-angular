@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
-const materialComponents = [MatSlideToggleModule];
+const materialComponents = [MatSlideToggleModule, MatToolbarModule];
 
 @NgModule({
   imports: [materialComponents],

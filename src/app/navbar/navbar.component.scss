@@ -1,0 +1,15 @@
+@import "../../vars";
+
+.example-fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+a {
+  margin-left: 2em;
+}
+
+mat-toolbar {
+  min-height: 5em;
+  background-color: $custom-primary-color;
+  color: black;
+}
